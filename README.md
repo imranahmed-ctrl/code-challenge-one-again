@@ -31,6 +31,9 @@ This javascript function calculates the amount paid by a customer to transact mo
 ## Author
 - Imran Ahmed
 
-## License
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 1 code challenge</title>
+</head>
+<body>
+    <h2>Code Challenge One</h2>
+    <section>
+        <h1>1. Chai Bora Ingredient Calculator</h1>   
+        <label>How Many Cups OF Chai Bora Would You Like?</label>
+        <input type="number" id="chaiInput">
+        <button onclick="calculateChaiIngredients()">Make Chai</button>
+        <pre id="chaiOutput"></pre>
+    </section>
+
+    <section>
+        <h1>Boda Boda Ride Fare Estimator</h1>
+        <label>Unafika wapi mkubwa?Kilomita ngapi?</label>
+        <input type="number" id="fareInput">
+        <button onclick="calculateBodaBodaFare()">Estimate Fare</button>
+         <pre id="fareOutput"></pre>
+    </section>
+
+    <section>
+        <h1>Mobile Money Transaction Fee Estimator</h1>
+        <label>Unatuma Ngapi?(KES)</label>
+        <input type="number" id="feeInput">
+        <button onclick="calculateTransactionFee()">Estimate Fee</button>
+        <pre id="feeOutput"></pre>
+    </section>
+    <script src="chai.js"></script>
+<script src="boda.js"></script>
+<script src="money.js"></script>
+
+</body>
+</html>

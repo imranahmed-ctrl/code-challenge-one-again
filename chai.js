@@ -1,23 +1,25 @@
-// Function to calculate ingredients for making Kenyan Chai
+// Function to calculate ingredients for making Chai Bora
 function calculateChaiIngredients() {
-    // Prompt user for number of cups
-    let input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
-    let numberOfCups = Number(input); // Convert input to number
 
-    // Calculate total ingredients
-    let water = numberOfCups * 200; // in ml
-    let milk = numberOfCups * 50;   // in ml
-    let teaLeaves = numberOfCups * 1; // tablespoons
-    let sugar = numberOfCups * 2;   // teaspoons
+    //Prompt the user
+    let input = prompt("Karibu!How many cups of Chai Bora would you like to make?");
+    let numberOfCups = Number(input);
 
-    // The results in console
-    console.log(`To make ${numberOfCups} cups of Kenyan Chai, you will need:`);
+    //Calculate total ingredients
+    // milk and water(ml), sugar and majani(teaspoons)
+    let water = numberOfCups * 200;
+    let milk = numberOfCups * 50;
+    let teaLeaves = numberOfCups * 1;
+    let sugar = numberOfCups * 2;
+
+    //Display results in console
+    console.log(`To make ${numberOfCups} cups of Chai Bora, you will need:`);
     console.log(`Water: ${water} ml`);
-    console.log(`Milk: ${milk} ml`);
-    console.log(`Tea Leaves (Majani): ${teaLeaves} tablespoons`);
-    console.log(`Sugar (Sukari): ${sugar} teaspoons`);
-    console.log(`\nEnjoy your Chai Bora!`);
+    console.log(`milk: ${milk} ml`);
+    console.log(`Tea Leaves: ${teaLeaves} teaspoons`);
+    console.log(`Sugar: ${sugar} teaspoons`);
+    console.log(`\nEnjoy your ChaiBora`);
 }
 
-// Call the function
+//Call the function
 calculateChaiIngredients();
